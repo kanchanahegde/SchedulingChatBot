@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {AmplifyChatbot} from "@aws-amplify/ui-react";
 
 function App() {
   return (
@@ -17,7 +18,13 @@ function App() {
         >
           Learn React
         </a>
+
       </header>
+      <AmplifyChatbot
+      botName="ScheduleAppointment_dev"
+      botTitle="Schedule Appointment"
+      welcomeMessage="Hello, how can I help you?"
+    />
     </div>
   );
 }

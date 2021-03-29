@@ -10,6 +10,17 @@
       "StackName": "amplify-schedulingchatbot-dev-154545",
       "StackId": "arn:aws:cloudformation:us-east-1:542447164826:stack/amplify-schedulingchatbot-dev-154545/3220af00-8ffe-11eb-9205-0aa9a390fc79",
       "AmplifyAppId": "d1y3vpqtoobhlg"
+    },
+    "categories": {
+      "auth": {
+        "cognito8cf45407": {}
+      },
+      "interactions": {
+        "ScheduleBot": {
+          "deploymentBucketName": "amplify-schedulingchatbot-dev-154545-deployment",
+          "s3Key": "amplify-builds/ScheduleBot-4c6f4e56767135747444-build.zip"
+        }
+      }
     }
   }
 }
